@@ -1,3 +1,5 @@
+# Problem: Move Zeros
+# Category: Array
 
 nums = [0,1,0,3,12]
 
