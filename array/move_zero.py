@@ -1,5 +1,8 @@
 # Problem: Move Zeros
 # Category: Array
+# Approach: Filter non-zero elements and append zeros
+# Time Complexity: O(n)
+# Space Complexity: O(n)
 
 nums = [0,1,0,3,12]
 
