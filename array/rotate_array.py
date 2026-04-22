@@ -1,6 +1,8 @@
 # Problem: Rotate Array by K steps
 # Category: Array
 # Approach: Reverse method
+# Time Complexity: O(n)
+# Space Complexity: O(1)
 
 def rotate(nums, k):
     k = k % len(nums)
