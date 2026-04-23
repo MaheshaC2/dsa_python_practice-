@@ -1,3 +1,8 @@
+# Problem: Coin Change
+# Category: DP
+# Time Complexity: O(n * amount)
+# Space Complexity: O(amount)
+
 coins = [1,2,5]
 amount = 11
 
