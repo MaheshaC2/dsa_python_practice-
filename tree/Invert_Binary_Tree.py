@@ -1,3 +1,8 @@
+# Problem: Invert Binary Tree
+# Category: Tree
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+
 class Node:
     def _init_(self, val):
         self.val = val
