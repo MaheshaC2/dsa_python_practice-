@@ -1,4 +1,7 @@
 # Problem: Power (x^n)
+# Category: Recursion
+# Time Complexity: O(log n)
+# Space Complexity: O(log n)
 
 def power(x, n):
     if n == 0:
