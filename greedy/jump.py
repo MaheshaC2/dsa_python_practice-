@@ -1,3 +1,8 @@
+# Problem: Jump Game
+# Category: Greedy
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+
 nums = [2,3,1,1,4]
 
 max_reach = 0
