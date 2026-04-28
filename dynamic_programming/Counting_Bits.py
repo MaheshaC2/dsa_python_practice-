@@ -1,3 +1,8 @@
+# Problem: Counting Bits
+# Category: Bit Manipulation / DP
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+
 n = 5
 dp = [0]*(n+1)
 
