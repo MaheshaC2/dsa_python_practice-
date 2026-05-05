@@ -1,3 +1,7 @@
+# Problem: Climbing Stairs
+# Category: Dynamic Programming
+# Time Complexity: O(n)
+# Space Complexity: O(1)
 
 def climb_stairs(n):
     if n <= 2:
