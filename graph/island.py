@@ -1,10 +1,7 @@
-"""
-Problem: Number of Islands
-Category: Graphs
-Time Complexity: O(m * n)
-Space Complexity: O(m * n)
-"""
-
+# Problem: Number of Islands
+# Category: Graphs
+# Time Complexity: O(m * n)
+# Space Complexity: O(m * n)
 def num_islands(grid):
     if not grid:
         return 0
