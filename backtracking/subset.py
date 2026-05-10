@@ -1,9 +1,7 @@
-"""
-Problem: Generate All Subsets
-Category: Backtracking
-Time Complexity: O(2^n)
-Space Complexity: O(n)
-"""
+# Problem: Generate All Subsets
+# Category: Backtracking
+# Time Complexity: O(2^n)
+# Space Complexity: O(n)
 
 def subsets(nums):
     result = []
