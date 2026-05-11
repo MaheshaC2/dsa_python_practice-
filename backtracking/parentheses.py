@@ -1,9 +1,7 @@
-"""
-Problem: Generate Parentheses
-Category: Backtracking
-Time Complexity: O(2^n)
-Space Complexity: O(n)
-"""
+# Problem: Generate Parentheses
+# Category: Backtracking
+# Time Complexity: O(2^n)
+# Space Complexity: O(n)
 
 def generate_parentheses(n):
     result = []
@@ -18,6 +16,5 @@ def generate_parentheses(n):
 
         if close_count < open_count:
             backtrack(curr + ")", open_count, close_count + 1)
-
     backtrack("", 0, 0)
     return result
