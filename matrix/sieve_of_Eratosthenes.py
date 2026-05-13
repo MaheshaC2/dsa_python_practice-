@@ -1,9 +1,7 @@
-"""
-Problem: Sieve of Eratosthenes
-Category: Math
-Time Complexity: O(n log log n)
-Space Complexity: O(n)
-"""
+# Problem: Sieve of Eratosthenes
+# Category: Math
+# Time Complexity: O(n log log n)
+# Space Complexity: O(n)
 
 def sieve(n):
     prime = [True] * (n + 1)
