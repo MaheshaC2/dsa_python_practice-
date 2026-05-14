@@ -1,9 +1,7 @@
-"""
-Problem: Gas Station
-Category: Greedy
-Time Complexity: O(n)
-Space Complexity: O(1)
-"""
+# Problem: Gas Station
+# Category: Greedy
+# Time Complexity: O(n)
+# Space Complexity: O(1)
 
 def can_complete_circuit(gas, cost):
     if sum(gas) < sum(cost):
