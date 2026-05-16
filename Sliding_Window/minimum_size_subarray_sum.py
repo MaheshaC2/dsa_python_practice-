@@ -1,9 +1,8 @@
-"""
-Problem: Minimum Size Subarray Sum
-Category: Sliding Window
-Time Complexity: O(n)
-Space Complexity: O(1)
-"""
+# Problem: Minimum Size Subarray Sum
+# Category: Sliding Window
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+
 
 def min_subarray_len(target, nums):
     left = 0
