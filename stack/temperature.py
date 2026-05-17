@@ -1,9 +1,7 @@
-"""
-Problem: Daily Temperatures
-Category: Stack
-Time Complexity: O(n)
-Space Complexity: O(n)
-"""
+# Problem: Daily Temperatures
+# Category: Stack
+# Time Complexity: O(n)
+# Space Complexity: O(n)
 
 def daily_temperatures(temperatures):
     stack = []
