@@ -1,9 +1,9 @@
-"""
-Problem: Search Insert Position
-Category: Binary Search
-Time Complexity: O(log n)
-Space Complexity: O(1)
-"""
+# Problem: Search Insert Position
+# Category: Binary Search
+# Time Complexity: O(log n)
+# Space Complexity: O(1)
+
+
 def search_insert(nums, target):
     left, right = 0, len(nums) - 1
 
