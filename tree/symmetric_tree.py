@@ -1,0 +1,22 @@
+# Problem: Symmetric Tree
+# Category: Trees
+# Time Complexity: O(n)
+# Space Complexity: O(h)
+
+def is_symmetric(root):
+
+    def mirror(left, right):
+
+        if not left and not right:
+            return True
+
+        if not left or not right:
+            return False
+
+        return (
+            left.val == right.val and
+            mirror(left.left, right.right) and
+            mirror(left.right, right.left)
+        )
+
+    return mirror(root.left, root.right)
