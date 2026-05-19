@@ -1,9 +1,8 @@
-"""
-Problem: Path Sum
-Category: Trees
-Time Complexity: O(n)
-Space Complexity: O(h)
-"""
+# Problem: Path Sum
+# Category: Trees
+# Time Complexity: O(n)
+# Space Complexity: O(h)
+
 
 def has_path_sum(root, target_sum):
 
