@@ -1,12 +1,9 @@
-"""
-Problem: Decode Ways
-Category: Dynamic Programming
-Time Complexity: O(n)
-Space Complexity: O(1)
-"""
+# Problem: Decode Ways
+# Category: Dynamic Programming
+# Time Complexity: O(n)
+# Space Complexity: O(1)
 
 def num_decodings(s):
-
     if not s or s[0] == "0":
         return 0
 
