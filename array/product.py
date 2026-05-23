@@ -1,9 +1,7 @@
-"""
-Problem: Product of Array Except Self
-Category: Arrays
-Time Complexity: O(n)
-Space Complexity: O(1)
-"""
+# Problem: Product of Array Except Self
+# Category: Arrays
+# Time Complexity: O(n)
+# Space Complexity: O(1)
 
 def product_except_self(nums):
 
@@ -19,5 +17,4 @@ def product_except_self(nums):
     for i in range(n - 1, -1, -1):
         result[i] *= postfix
         postfix *= nums[i]
-
     return result
