@@ -1,12 +1,9 @@
-"""
-Problem: Longest Increasing Subsequence
-Category: Dynamic Programming
-Time Complexity: O(n^2)
-Space Complexity: O(n)
-"""
+# Problem: Longest Increasing Subsequence
+# Category: Dynamic Programming
+# Time Complexity: O(n^2)
+# Space Complexity: O(n)
 
 def length_of_lis(nums):
-
     dp = [1] * len(nums)
 
     for i in range(len(nums) - 1, -1, -1):
