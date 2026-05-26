@@ -1,12 +1,9 @@
-"""
-Problem: Partition Equal Subset Sum
-Category: Dynamic Programming
-Time Complexity: O(n * sum)
-Space Complexity: O(sum)
-"""
+# Problem: Partition Equal Subset Sum
+# Category: Dynamic Programming
+# Time Complexity: O(n * sum)
+# Space Complexity: O(sum)
 
 def can_partition(nums):
-
     total = sum(nums)
 
     if total % 2:
