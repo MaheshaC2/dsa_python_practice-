@@ -1,12 +1,9 @@
-"""
-Problem: Moving Average from Data Stream
-Category: Queue
-Time Complexity: O(1)
-Space Complexity: O(n)
-"""
+# Problem: Moving Average from Data Stream
+# Category: Queue
+# Time Complexity: O(1)
+# Space Complexity: O(n)
 
 from collections import deque
-
 class MovingAverage:
 
     def __init__(self, size):
