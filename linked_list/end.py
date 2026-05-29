@@ -1,9 +1,7 @@
-"""
-Problem: Remove Nth Node From End of List
-Category: Linked List
-Time Complexity: O(n)
-Space Complexity: O(1)
-"""
+# Problem: Remove Nth Node From End of List
+# Category: Linked List
+# Time Complexity: O(n)
+# Space Complexity: O(1)
 
 def remove_nth_from_end(head, n):
 
