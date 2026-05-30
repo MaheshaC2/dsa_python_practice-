@@ -1,9 +1,7 @@
-"""
-Problem: N-Queens
-Category: Backtracking
-Time Complexity: O(N!)
-Space Complexity: O(N)
-"""
+# Problem: N-Queens
+# Category: Backtracking
+# Time Complexity: O(N!)
+# Space Complexity: O(N)
 
 def solve_n_queens(n):
 
@@ -45,5 +43,4 @@ def solve_n_queens(n):
             board[row][col] = "."
 
     backtrack(0)
-
     return result
