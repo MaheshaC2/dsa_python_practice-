@@ -1,9 +1,7 @@
-"""
-Problem: Merge K Sorted Lists
-Category: Heap
-Time Complexity: O(N log K)
-Space Complexity: O(K)
-"""
+# Problem: Merge K Sorted Lists
+# Category: Heap
+# Time Complexity: O(N log K)
+# Space Complexity: O(K)
 
 import heapq
 
