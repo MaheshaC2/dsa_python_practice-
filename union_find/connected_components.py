@@ -1,9 +1,7 @@
-"""
-Problem: Number of Connected Components
-Category: Union Find
-Time Complexity: O(E * α(n))
-Space Complexity: O(n)
-"""
+# Problem: Number of Connected Components
+# Category: Union Find
+# Time Complexity: O(E * α(n))
+# Space Complexity: O(n)
 
 def count_components(n, edges):
 
@@ -33,5 +31,4 @@ def count_components(n, edges):
 
     for u, v in edges:
         components -= union(u, v)
-
     return components
