@@ -1,9 +1,7 @@
-"""
-Problem: Redundant Connection
-Category: Union Find
-Time Complexity: O(n)
-Space Complexity: O(n)
-"""
+# Problem: Redundant Connection
+# Category: Union Find
+# Time Complexity: O(n)
+# Space Complexity: O(n)
 
 def find_redundant_connection(edges):
 
@@ -23,5 +21,4 @@ def find_redundant_connection(edges):
 
         if root_u == root_v:
             return [u, v]
-
         parent[root_u] = root_v
