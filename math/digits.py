@@ -1,9 +1,7 @@
-"""
-Problem: Count Number of Digits
-Category: Math
-Time Complexity: O(log n)
-Space Complexity: O(1)
-"""
+# Problem: Count Number of Digits
+# Category: Math
+# Time Complexity: O(log n)
+# Space Complexity: O(1)
 
 def count_digits(n):
 
