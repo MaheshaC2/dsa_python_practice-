@@ -1,3 +1,9 @@
+"""
+Problem: Majority Element
+Category: Arrays
+Time Complexity: O(n)
+Space Complexity: O(1)
+"""
 def majority_element(nums):
     candidate = None
     count = 0
